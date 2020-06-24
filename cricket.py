@@ -93,7 +93,7 @@ for overs in range(0,10):
         continue
     break
 
-else:  #CASE 2: Print end of innings stats when wickets remaina after eoi
+else:  #CASE 2: Print end of innings stats when wickets remain after End of Innings
     b_runs[batsman] = individual_score
     b_wickets[bowler]= individual_wickets
     print("----------------------------------------------------------------------------")
