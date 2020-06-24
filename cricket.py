@@ -63,7 +63,7 @@ for overs in range(0,10):
 
 
 
-        if (batsman_index == 10):
+        if (batsman_index == 10):  #stats if the innings ends before the final ball
             print("\nBatsman [ Start of Over: {},End of Over: {} ] Bowler:{}\n".format(start, batsman, bowler))
             print("Score: {}/{}    Boundaries: {}".format(total_score, total_wickets, boundaries))
             print("----------------------------------------------------------------------------")
