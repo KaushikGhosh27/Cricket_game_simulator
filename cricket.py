@@ -13,7 +13,7 @@ boundaries = 0
 
 b_runs = {}
 b_wickets = {}
-balls_played = {}
+
 
 batsman_index = 0
 batsman = batsmen_list[batsman_index]
@@ -35,7 +35,6 @@ for overs in range(0,10):
                 b_runs[batsman] = individual_score
                 balls_played[batsman] = balls_faced
                 individual_score = 0
-                balls_faced = 0
                 batsman_index += 1
                 if batsman_index <= 9:
                     batsman = batsmen_list[batsman_index]
@@ -47,11 +46,11 @@ for overs in range(0,10):
             boundaries +=1
             individual_score += ball
             total_score += ball
-            balls_faced += 1
+            
         else:
             individual_score += ball
             total_score += ball
-            balls_faced += 1
+            
 
 
 
