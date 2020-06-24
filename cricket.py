@@ -21,7 +21,7 @@ batsman = batsmen_list[batsman_index]
 bowler_index = 0
 bowler = bowler_list[bowler_index]
 
-balls_faced  =0
+balls_faced  = 1
 
 for overs in range(0,10):
     print("---------------------------------------------------------------------------")
